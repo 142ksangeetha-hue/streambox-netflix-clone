@@ -16,7 +16,7 @@ const movies = [
     age: "16+",
     description:
       "An unforgettable journey beyond the unknown. A group of explorers must face their greatest challenge.",
-    image: "/movies/movie1.jpg",
+image: "movies/movie1.jpg",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const movies = [
     age: "16+",
     description:
       "A mysterious story that unfolds after dark when a detective discovers a dangerous secret.",
-    image: "/movies/movie2.jpg",
+    image: "movies/movie2.jpg",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const movies = [
     age: "13+",
     description:
       "A new world. A new beginning. Humanity searches for a future beyond Earth.",
-    image: "/movies/movie3.jpg",
+    image: "movies/movie3.jpg",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const movies = [
     age: "16+",
     description:
       "Everyone has something to hide. One discovery changes everything.",
-    image: "/movies/movie4.jpg",
+    image: "movies/movie4.jpg",
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const movies = [
     age: "13+",
     description:
       "Sometimes love finds its way back when you least expect it.",
-    image: "/movies/movie5.jpg",
+    image: "movies/movie5.jpg",
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ const movies = [
     age: "18+",
     description:
       "One mission. One chance to survive. An elite team enters enemy territory.",
-    image: "/movies/movie6.jpg",
+    image: "movies/movie6.jpg",
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const movies = [
     age: "13+",
     description:
       "A crew battles the most dangerous storm of their lives.",
-    image: "/movies/movie7.jpg",
+    image: "movies/movie7.jpg",
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const movies = [
     age: "13+",
     description:
       "A forgotten past slowly returns and changes everything.",
-    image: "/movies/movie8.jpg",
+    image: "movies/movie8.jpg",
   },
   {
     id: 9,
@@ -104,7 +104,7 @@ const movies = [
     age: "16+",
     description:
       "A brilliant detective follows a trail that leads somewhere unexpected.",
-    image: "/movies/movie9.jpg",
+    image: "movies/movie9.jpg",
   },
 ];
 
