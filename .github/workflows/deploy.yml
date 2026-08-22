@@ -1,4 +1,4 @@
-name: Deploy Vite app to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
@@ -9,10 +9,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -47,8 +43,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
     needs: build
+
+    runs-on: ubuntu-latest
 
     steps:
       - name: Deploy to GitHub Pages
